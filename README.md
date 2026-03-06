@@ -67,6 +67,12 @@ This installer only does one thing:
 - Download and install the matching prebuilt binary from the latest GitHub release
 - It does not fallback to Homebrew/Cargo inside `install.sh` (use separate methods below)
 
+Upgrade in place later:
+
+```sh
+microclaw upgrade
+```
+
 ### Preflight diagnostics
 
 Run cross-platform diagnostics before first start (or when troubleshooting):
@@ -1081,8 +1087,6 @@ MicroClaw's core loop is channel-agnostic. A new platform integration should mai
 Thanks to everyone who has contributed to this project.
 
 [![Contributors](https://contrib.rocks/image?repo=microclaw/microclaw)](https://github.com/microclaw/microclaw/graphs/contributors)
-
-
 
 ## License
 
